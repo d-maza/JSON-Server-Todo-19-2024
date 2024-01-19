@@ -1,0 +1,29 @@
+{
+  "todo": [
+    {
+      "id": "1490661791287",
+      "description": "Definir los pasos para crear ToDo App",
+      "done": true
+    },
+    {
+      "id": "1105648123614",
+      "description": "Crear un servidor con Node.js y JSON-Server",
+      "done": true
+    },
+    {
+      "id": "1115948301283",
+      "description": "Crear la base de datos archivo DB.JSON",
+      "done": true
+    },
+    {
+      "id": "251210235489",
+      "description": "Crear una aplicación con Angular",
+      "done": true
+    },
+    {
+      "id": "659936929124",
+      "description": "Crear un servicio en Angular para consumir la API",
+      "done": false
+    }
+  ]
+}
