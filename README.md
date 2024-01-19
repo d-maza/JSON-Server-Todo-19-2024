@@ -50,3 +50,55 @@ cd todo-app
 npm install
 ```
 
+## Uso
+La aplicación ToDo se encuentra en desarrollo y actualmente muestra una lista de tareas con su estado de completado. Puedes interactuar con la API JSON utilizando el endpoint mencionado anteriormente.
+
+### Ejemplo de Uso
+
+- Obtener todas las tareas:
+```
+GET http://localhost:3000/todo
+```
+
+- Obtener una tarea específica por ID:
+```
+GET http://localhost:3000/todo/{id}
+```
+
+- Agregar una nueva tarea:
+```
+POST http://localhost:3000/todo
+```
+
+- Content-Type: application/json
+```
+{
+  "description": "Nueva tarea",
+  "done": false
+}
+```
+
+- Actualizar el estado de una tarea por ID:
+```
+PATCH http://localhost:3000/todo/{id}
+Content-Type: application/json
+
+{
+  "done": true
+}
+```
+
+- Eliminar una tarea por ID:
+```
+DELETE http://localhost:3000/todo/{id}
+```
+
+Recuerda ajustar las solicitudes HTTP según tus necesidades y explorar la aplicación para familiarizarte con su funcionalidad.
+
+¡Disfruta utilizando la aplicación ToDo! Si tienes alguna pregunta o problema, no dudes en crear un problema (issue) en este repositorio.
+
+
+
+
+
+
